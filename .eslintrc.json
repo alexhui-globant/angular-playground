@@ -3,6 +3,9 @@
   "ignorePatterns": [
     "projects/**/*"
   ],
+  "rules": {
+    "no-trailing-spaces": "error"
+  },
   "overrides": [
     {
       "files": [
@@ -30,7 +33,8 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "indent": ["error", 2]
       }
     },
     {
